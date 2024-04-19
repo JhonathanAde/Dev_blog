@@ -1,0 +1,20 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 12px;
+  border-bottom: .15rem solid grey;
+}
+
+nav ul {
+  width: 12rem;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
